@@ -1,0 +1,33 @@
+{
+  "name": "vivaldijs",
+  "version": "1.0.0",
+  "description": "A thin wrapper around the Web MIDI API to forget some of its corners.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrgreenh/VivaldiJs"
+  },
+  "keywords": [
+    "MIDI",
+    "note",
+    "music",
+    "instrument",
+    "score",
+    "synth",
+    "keyboard"
+  ],
+  "author": "Carlo Andrea Conte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrgreenh/VivaldiJs/issues"
+  },
+  "homepage": "https://github.com/mrgreenh/VivaldiJs",
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^10.2.6",
+    "gulp": "^3.9.0"
+  }
+}
