@@ -26,8 +26,10 @@
   },
   "homepage": "https://github.com/mrgreenh/VivaldiJs",
   "devDependencies": {
+    "amdefine": "^1.0.0",
     "babelify": "^6.1.3",
     "browserify": "^10.2.6",
-    "gulp": "^3.9.0"
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
