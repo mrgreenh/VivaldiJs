@@ -4,7 +4,7 @@ class Vivaldi {
     */
     constructor(inputsNames){
         this._inputsNames = inputsNames;
-        this.busses = [];
+        this._busses = [];
         this.callbacks = [];
         this._connect();
     }
@@ -63,7 +63,3 @@ Vivaldi.MIDI_EVENT_CODES = {
 }
 
 export default Vivaldi;
-
-define(function(){
-    return Vivaldi;
-})

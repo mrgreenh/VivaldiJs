@@ -1,1 +1,5 @@
-import Vivaldijs from './Vivaldi'
+import Vivaldi from './Vivaldi'
+
+define(function(){
+    return Vivaldi;
+})
