@@ -45,7 +45,7 @@ class Vivaldi {
         var note = {};
         var eventData = midiEvent.data;
         note["command"] = eventData[0] >> 4;
-        note["channel"] = eventData[0] & 0xf;
+        note["channel"] = (eventData[0] & 0xf) + 1;
         note["type"] = Vivaldi.MIDI_EVENT_CODES[note["command"]];
         note["note"] = eventData[1];
         note["velocity"] = eventData[2];
